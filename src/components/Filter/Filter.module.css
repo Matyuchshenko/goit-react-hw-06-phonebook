@@ -1,0 +1,27 @@
+.filterWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 10px;
+}
+
+input[type="text"],
+tel {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.inputFilter {
+  width: 50%;
+  padding: 4px;
+  outline: none;
+}
